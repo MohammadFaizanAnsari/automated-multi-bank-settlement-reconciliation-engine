@@ -1,0 +1,4 @@
+TransactionID,Amount,Currency,TransactionDate,Description
+ICICI100001,1500.50,INR,2026-07-01,Salary Cred
+ICICI100002,799.99,INR,2026-07-02,Online Purchase
+ICICI100003,25000.00,INR,2026-07-03,Client Payment

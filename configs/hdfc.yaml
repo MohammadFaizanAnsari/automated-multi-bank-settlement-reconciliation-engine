@@ -1,0 +1,31 @@
+bank_code: HDFC
+
+bank_name: HDFC Bank
+
+supported_formats:
+  - CSV
+  - MT940
+  - CAMT053
+
+timezone: Asia/Kolkata
+
+settlement_cycle: T+1
+
+reconciliation_window: 2
+
+column_mappings:
+  transaction_id: Transaction ID
+  transaction_date: Date
+  amount: Amount
+  currency: Currency
+  description: Narration
+  reference: Reference
+
+mt940_deviations:
+  missing_funds_code: true
+  decimal_separator: comma
+
+sftp:
+  host: placeholder
+  username: placeholder
+  password: placeholder

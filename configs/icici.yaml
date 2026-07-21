@@ -1,0 +1,30 @@
+bank_code: ICICI
+
+bank_name: ICICI Bank
+
+supported_formats:
+  - CSV
+  - MT940
+  - CAMT053
+
+timezone: Asia/Kolkata
+
+settlement_cycle: T+1
+
+reconciliation_window: 2
+
+column_mappings:
+  transaction_id: TransactionID
+  transaction_date: TransactionDate
+  amount: Amount
+  currency: Currency
+  description: Description
+
+mt940_deviations:
+  missing_funds_code: false
+  decimal_separator: comma
+
+sftp:
+  host: placeholder
+  username: placeholder
+  password: placeholder
